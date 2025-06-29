@@ -104,7 +104,7 @@ const jwt = require("jsonwebtoken");
 const app = express();
 
 // Load environment variables
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT ;
 const MONGO_URI = process.env.MONGO_URI;
 const COLLECTION_NAME = "users";
 const JWT_SECRET = process.env.JWT_SECRET;
