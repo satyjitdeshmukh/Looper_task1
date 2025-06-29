@@ -43,7 +43,7 @@ const Register = () => {
 
     setIsLoading(true);
     try {
-      const res = await fetch("https://looper-task1.onrender.com/register", {
+      const res = await fetch(" https://looper-task1-2.onrender.com/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
